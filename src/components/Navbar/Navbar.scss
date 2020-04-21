@@ -1,0 +1,40 @@
+@import '../../styles/vars';
+
+.Navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-link {
+        display: inline-block;
+        color: $main-font;
+        text-align: center;
+        padding: 20px 16px;
+        text-decoration: none;
+        font-size: 17px;
+
+        &:hover,
+        &__on {
+            background-color: $dark-purple;
+            color: white;
+        }
+
+        &:first-child {
+            font-weight: 700;
+        }
+
+        @media screen and (max-width: $sm-max) {
+            &:not(:first-child) {
+                display: none;
+            }
+            
+        }
+
+    
+    }
+}

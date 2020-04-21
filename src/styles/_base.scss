@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: 5px auto $dark-purple;
+    -webkit-outline: 5px auto $dark-purple;
+    -moz-outline: 5px auto $dark-purple;
+    -ms-outline: 5px auto $dark-purple;
+    -o-outline: 5px auto $dark-purple;
+//use border to apply the outline
+    border: 1px solid black;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: $main-font;background-color: $background-color;
+}
+
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
