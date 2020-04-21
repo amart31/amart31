@@ -1,0 +1,99 @@
+@import '../../styles/vars';
+
+.HeroBanner {
+    position: relative;
+    width: 100vw;
+
+    &--textbox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        backface-visibility: hidden;
+        text-align: center;
+}   
+
+&--primary {
+    color: white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 5rem;
+    
+    &--main {
+        display: block;
+        font-size: 3.5rem;
+        font-weight: 400;
+        letter-spacing: .7rem;
+        animation: moveInLeft 1s ease-out;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .5rem;
+        animation: moveInRight 1s ease-out;
+    }
+    &--sub2 {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+        margin-top: .5rem;
+        //animation: moveInRight 1s ease-out;
+    }
+
+    .HeroBanner-img {
+        width: 100%;
+        max-height: 550px;
+        object-fit: cover;
+        object-position: center;
+
+        @media (min-width: $lg-min) {
+            max-height: 650px;
+          }
+      
+          @media (min-width: $xl-min) {
+            max-height: 700px;
+          }
+    }
+
+    }
+}
+
+    img {
+        width: 100%;
+    }
+    
+    //global btn style, move to more aequate place
+    .btn {
+        &:link, 
+        &:visited {
+            display: inline-block;
+            transition: all .2s;
+        }
+        
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(black,.2);
+        }
+        
+        &:active{
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(black,.2);
+        }
+        
+        &--white {
+        border-radius: 10rem;
+        background-color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        color: $light-purple;
+    }
+        &--white:hover {
+            background-color: $dark-purple;
+        }
+        
+    }
