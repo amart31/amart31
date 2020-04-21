@@ -1,0 +1,46 @@
+@import '../../styles/vars';
+
+.Footer {
+    background-color: white;
+    padding: 20px 0 20px;
+
+    &-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-links {
+        display: flex;
+
+        @media (min-width: $md-min) {
+            margin-right: 100px;
+        }
+    }
+
+    &-cir {
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:nth-child(1) {
+            background-color: #000;
+        }
+        &:nth-child(2) {
+            background-color: #3c5a99;
+            margin: 0 10px;
+          }
+      
+          &:nth-child(3) {
+            background-color: #1da1f2;
+          }
+      
+          &-i {
+            color: white;
+          }
+    }
+}
