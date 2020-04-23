@@ -11,7 +11,11 @@ export function About() {
                     </h2>
                    
                     <p>
-                    I am a Pega Certified Senior System Architect fluent in Java with experience as a front end developer. I have Leveraged Pegas resources in order to design, develop, and test applications that account for client-customer interactions, organization-employee interactions, and reports useful for analyzing organizational goals and objectives. Utilized Java, JavaScript, HTML, CSS, Bootstrap, and PostgreSQL to develop and improve full-stack dynamic web applications while collaborating with peers as part of an Agile Scrum environment.
+                    Hey you! thanks for taking a look at my portfolio! Anyways, I am a Pega Certified Senior System Architect fluent in Java with experience as a front end developer. I have Leveraged Pegas resources in order to design, develop, and test applications that account for client-customer interactions, organization-employee exchanges, and reports useful for analyzing organizational goals and objectives. Also, I have Utilized Java, JavaScript, HTML, CSS, Bootstrap, Gatsby, GraphQL and PostgreSQL to develop and improve full-stack dynamic web applications while collaborating with peers as part of an Agile Scrum environment.
+                  </p>
+                  <br />
+                  <p>
+                  After initially attending college with the intention of going to law school and becoming a lawyer, I decided to pursue my interest in coding and enrolled in 4Geeks Academy Bootcamp in partnership with Miami Dade College. I was fortunate to learn on demand and fundamental front end technologies like HTML, CSS, React, and Javascript along with more advanced topics such as Rest APIs and Authentication. This allowed to start my career as a front end developer where I would later start working with Java and Pega to develop and test enterprise application. I am currently pursuing a BA in Computer Science from Florida International University. 
                   </p>
                 </div>
 
@@ -33,7 +37,8 @@ export function About() {
                 </div>
                 </div>
                
-            <div className='About-education'>
+            <div className='container About-education'>
+            <h4>Education</h4>
                 <p>
                     <strong>BA Computer Science</strong>
                     <br />

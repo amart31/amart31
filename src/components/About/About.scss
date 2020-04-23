@@ -10,6 +10,14 @@
         display: flex;
         justify-content: space-between;
 
+        
+        @media (max-width: $sm-max) {
+            flex-direction: column;
+            text-align: center;
+            //height: 400px;
+
+        }
+
     }
 
     &-text { 
@@ -27,31 +35,39 @@
         }
 
         p {
-           // margin-top: 25px;
+           
             font-weight: 400;
             font-size: 16px;
-            line-height: 1.75;
+            line-height: 2;
+            padding-right: 25px;
         }     
     }
     &-list {
+        &:hover {
+            color: $light-purple;
+        }
         h4 {
             margin-bottom: 10px;
         }
     
         ul {
           
-        list-style-type: none;
+        padding-left: 20px;
         font-weight: 400;
             font-size: 16px;
-            line-height: 1.6;
+            line-height: 2;
 
-        
+            
         }
     }
 
     &-education {
+        padding-top: 20px;
+
+        h4{
+            margin-bottom: 10px;
+        }
         
-        text-align: center;
 
         &-xs {
             font-size: 65%;
