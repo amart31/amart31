@@ -3,7 +3,7 @@ import './About.scss';
 
 export function About() {
     return (
-        <section className='About'>
+        <section className='About' id='about'>
             <div className='container About-wrapper'>
                 <div className='About-text'>
                     <h2>
@@ -31,7 +31,8 @@ export function About() {
                 <li>GraphQL</li>
                 <li>Node</li>
                 <li>Express</li>
-                <li>CSS and Sass</li>
+                <li>CSS </li>
+                <li>Sass</li>
                 <li>JUnit</li>
                 </ul>
                 </div>

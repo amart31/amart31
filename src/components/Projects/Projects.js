@@ -4,7 +4,7 @@ import './Projects.scss';
 
 export function Projects(props) {
     return (
-        <section className='Project container'>
+        <section className='Project container' id='projects'>
         <div className={`${props.side % 2 === 0 ? 'right' : 'left'}-side Project-desc`}>
             <h2>{props.title}</h2>
             <p>{props.text}</p>
