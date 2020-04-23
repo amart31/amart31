@@ -6,6 +6,7 @@ import { Projects } from '../components/Projects/Projects';
 import  { ProjectsData } from '../components/Projects/ProjectsData'
 
 import { About } from '../components/About/About';
+import { Contact } from '../components/Contact/Contact';
 
 import { HeroBanner } from '../components/HeroBanner/HeroBanner';
 
@@ -31,6 +32,7 @@ export function Home() {
       <HeroBanner />
       {projects}
       <About />
+      <Contact />
       <Footer />
     </React.Fragment>
   );
