@@ -1,0 +1,60 @@
+@import '../../styles/vars';
+
+.About {
+    margin-bottom: 50px;
+    padding-top: 35px;
+    background-image: linear-gradient(white, $background-color);
+    margin-top: -5px;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &-text { 
+        padding-right: 20px;
+
+      
+
+        h2 {
+            width: 85%;
+            margin-bottom: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 35px;
+            line-height: 1.1;
+        }
+
+        p {
+           // margin-top: 25px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.75;
+        }     
+    }
+    &-list {
+        h4 {
+            margin-bottom: 10px;
+        }
+    
+        ul {
+          
+        list-style-type: none;
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.6;
+
+        
+        }
+    }
+
+    &-education {
+        
+        text-align: center;
+
+        &-xs {
+            font-size: 65%;
+        }
+    }
+}

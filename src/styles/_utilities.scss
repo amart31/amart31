@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+  
+    @media (min-width: 576px) {
+      max-width: 560px;
+    }
+  
+    @media (min-width: $md-min) {
+      max-width: 720px;
+    }
+  
+    @media (min-width: $lg-min) {
+      max-width: 960px;
+    }
+  
+    @media (min-width: $xl-min) {
+      max-width: 1140px;
+    }
+  }
+  
+  .hidden {
+    opacity: 0;
+    height: 0;
+  }
+  
+  .purple {
+    color: $dark-purple;
+    display: inline-block;
+  }
+  
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    width: auto;
+    padding: 7px 25px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: $dark-purple;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.08s ease-in;
+  
+    &:hover {
+      background-color: $main-font;
+    }
+  
+  }
