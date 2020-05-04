@@ -11,7 +11,7 @@ export function About() {
                     </h2>
                    
                     <p>
-                    Hey you! thanks for taking a look at my portfolio! Anyways, I am a Pega Certified Senior System Architect fluent in Java with experience as a front end developer. I have Leveraged Pegas resources in order to design, develop, and test applications that account for client-customer interactions, organization-employee exchanges, and reports useful for analyzing organizational goals and objectives. Also, I have Utilized Java, JavaScript, HTML, CSS, Bootstrap, Gatsby, GraphQL and PostgreSQL to develop and improve full-stack dynamic web applications while collaborating with peers as part of an Agile Scrum environment.
+                    Hey you! thanks for taking a look at my portfolio! Anyways, I am a Pega Certified Senior System Architect fluent in Java with experience as a front end developer. I Leverage Pegas resources in order to design, develop, and test applications that account for client-customer interactions, organization-employee exchanges, and reports useful for analyzing organizational goals and objectives. Also, I have Utilized Java, JavaScript, HTML, CSS, Bootstrap, Gatsby, GraphQL and PostgreSQL to develop and improve full-stack dynamic web applications while collaborating with peers as part of an Agile Scrum environment.
                   </p>
                   <br />
                   <p>

@@ -18,8 +18,7 @@
         text-decoration: none;
         font-size: 17px;
 
-        &:hover,
-        &__on {
+        &:hover {
             background-color: $dark-purple;
             color: white;
         }
