@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import './Contact.scss';
 
 export function Contact() {
-    const [name, email, message] = useState('');
+    const [name, updateName] = useState('');
+    const [email, updateEmail] = useState('');
+    const [message, updateMessage] = useState('');
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -12,50 +14,50 @@ export function Contact() {
 
     return (
         <section className='Contact' id='contact'>
-        <div className='container Contact-wrapper'>
+          <div className='container Contact-wrapper'>
+            <form action="https://formspree.io/martinez1751@gmail.com" className="form" method="POST">
 
+              <label htmlFor="name" className="form__group">
+                Name
+                <input
+                  className="form__input"
+                  requiered="true"
+                  id="name"
+                  value={name}
+                  placeholder="Your Name"
+                  onChange={e => updateName(e.target.value)}
+                />
+            </label>
 
+            <label htmlFor="email" className="form__group" >
+              Email
+              <input
+                className="form__input"
+                requiered="true"
+                type="email"
+                id="email"
+                value={email}
+                placeholder="Your Email"
+                onChange={e => updateEmail(e.target.value)}
+              />
+            </label>
 
-        <form action="https://formspree.io/martinez1751@gmail.com" className="form" method="POST">
-        <div className="form-title">
-          <h4 className="pb-1">Get in Touch</h4>
-        </div>
-
-        <div className="form__group">
-          <input
-            type="text"
-            className="form__input"
-            placeholder="Your Name"
-            id="name"
-            requiered="true"
-          />
-        </div>
-        <div className="form__group">
-          <input
-            type="email"
-            className="form__input"
-            placeholder="Your Email"
-            id="email"
-            requiered="true"
-          />
-        </div>
-        <div className="form__group">
-          <textarea
-            type="text"
-            className="form__input"
-            placeholder="Say Hello"
-            id="message"
-            requiered="true"
-          />
-        </div>
-        <button className='button button-Contact' onClick={handleSubmit}>
-                  Submit
-                </button>
-      </form>
-
-            
-        </div>
-        
+            <label htmlFor="message" className="form__group">
+              Message
+              <textarea
+                className="form__input"
+                requiered="true"
+                id="message"
+                value={message}
+                placeholder="Your Message"
+                onChange={e => updateMessage(e.target.value)}
+              />
+            </label>
+            <button className='button button-Contact' onClick={handleSubmit}>
+              Submit
+            </button>
+          </form> 
+          </div>       
         </section>
     )
 }
