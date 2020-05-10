@@ -1,12 +1,29 @@
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
 import headerImg from '../../img/heroBg.jpg';
 import headerImgMobile from '../../img/heroBg-mobil.jpg';
 import './HeroBanner.scss';
 
-export function HeroBanner() {
+const  HeroBanner = () => {
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    const imageUrl = windowWidth >=767 ? headerImg : headerImgMobile;
+
+    useEffect(() => {
+        const handleWindowResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+            window.removeEventListener('resize', handleWindowResize);
+        }
+    }, []);
     return (
         
-        <section className="'HeroBanner">
+        <section className="'HeroBanner" style={{backgroundImage:`url(${imageUrl})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
         <div className="HeroBanner--textbox">
         <h1 className="HeroBanner--primary">
                 <span className="HeroBanner--primary--main">{"<Welcome />"}</span>
@@ -18,12 +35,9 @@ export function HeroBanner() {
             see my work
         </a>
     </div>
-            <picture>
-                <source media='(min-width: 768px)' srcSet={headerImg} />
-                <img src={headerImgMobile} alt='typing hands' className='HeroBanner-img fluid-img' />
-                
-            </picture>
-        
+
         </section>
     )
 }
+
+export default HeroBanner;

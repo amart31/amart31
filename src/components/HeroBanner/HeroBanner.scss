@@ -1,27 +1,40 @@
 @import '../../styles/vars';
 
 .HeroBanner {
-    position: relative;
-    width: 100vw;
-    margin-bottom: 25px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    
 
     &--textbox {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        backface-visibility: hidden;
+        color: papayawhip;
+        height: 100vh;
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        object-fit: cover;
         text-align: center;
-}   
 
-&--primary {
-    color: white;
-    text-transform: uppercase;
 
-    backface-visibility: hidden;
-    margin-bottom: 5rem;
-    
+        &--primary {
+            text-transform: uppercase;
+        
+            backface-visibility: hidden;
+            margin-bottom: 5rem;
+
+        }
+
+    }
+
+}
+
+.HeroBanner--primary {
     &--main {
+        
         display: block;
         font-size: 3.5rem;
         font-weight: 400;
@@ -44,28 +57,26 @@
         margin-top: .5rem;
         //animation: moveInRight 1s ease-out;
     }
-
-    .HeroBanner-img {
-        width: 100%;
-        max-height: 550px;
-        object-fit: cover;
-        object-position: center;
-
-        @media (min-width: $lg-min) {
-            max-height: 650px;
-          }
-      
-          @media (min-width: $xl-min) {
-            max-height: 700px;
-          }
-    }
-
-    }
 }
 
-    img {
-        width: 100%;
+@media (min-width: $sm-max ) {
+    .HeroBanner {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+   
+        &--textbox {
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    
+    
+        }
     }
+
+    
+}
     
     //global btn style, move to more aequate place
     .btn {
@@ -92,6 +103,7 @@
         text-decoration: none;
         padding: 1.5rem 4rem;
         color: $light-purple;
+        margin-top: 15px;
     }
         &--white:hover {
             background-color: $dark-purple;

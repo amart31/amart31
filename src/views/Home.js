@@ -8,7 +8,7 @@ import  { ProjectsData } from '../components/Projects/ProjectsData'
 import { About } from '../components/About/About';
 import { Contact } from '../components/Contact/Contact';
 
-import { HeroBanner } from '../components/HeroBanner/HeroBanner';
+import HeroBanner  from '../components/HeroBanner/HeroBanner';
 
 export function Home() {
   const projects = ProjectsData.map((project, i) => {
