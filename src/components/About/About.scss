@@ -20,6 +20,29 @@
 
     }
 
+    &-certs {
+        max-width: 50vw;
+        width: 200px;
+        height: 150px;
+        margin: 0 auto;
+        max-height: inherit;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+      
+
+        & img {
+            max-width: inherit;
+            max-height: inherit;
+           // margin: 0 auto;
+
+           &:hover {
+            transform: translateY(-2px);
+           // box-shadow: 0 10px 20px rgba(black,.2);
+          }
+        }
+    }
+
     &-text { 
         padding-right: 20px;
 

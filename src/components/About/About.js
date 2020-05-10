@@ -22,24 +22,25 @@ export function About() {
                 <div className='About-list'>
                 <h4> Knowledge Areas</h4>
                 <ul>
+                <li>Java</li>
+                <li>Spring</li>
+                <li>Hibernate</li>
                 <li>Pega</li>
                 <li>React</li>
-                <li>Java</li>
-                <li>Rest APIs</li>
-                <li>Javascript</li>
                 <li>PostgreSQL</li>
                 <li>GraphQL</li>
                 <li>Node</li>
                 <li>Express</li>
                 <li>CSS </li>
                 <li>Sass</li>
-                <li>JUnit</li>
+                <li>HTML</li>
                 </ul>
                 </div>
-                </div>
+            </div>
                
-            <div className='container About-education'>
-            <h4>Education</h4>
+            <div className='container About-wrapper'>
+                <div className='About-education'>
+                <h4>Education</h4>
                 <p>
                     <strong>BA Computer Science</strong>
                     <br />
@@ -69,6 +70,26 @@ export function About() {
                     <br />
                 </p>
                 <br />
+                
+                </div>
+                <div className='About-certs'>
+                    <img
+                    src="https://github.com/amart31/andymartinez/blob/master/src/img/SSAlogo.png?raw=true"
+                    alt="PCSSA"
+                    className="pega-img mb-1"
+                />
+                <img
+                    src="https://github.com/amart31/andymartinez/blob/master/src/img/PegaCertPro.png?raw=true"
+                    alt="Certified professional Pega"
+                    className="pega-img m-2"
+                />
+                <img
+                    src="https://github.com/amart31/andymartinez/blob/master/src/img/PegaBAlogo.png?raw=true"
+                    alt="CBA logo"
+                    className="pega-img mt-1"
+                />
+                
+                </div>
             </div>
         </section>
     );

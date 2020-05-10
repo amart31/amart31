@@ -26,6 +26,7 @@ export function Contact() {
                   value={name}
                   placeholder="Your Name"
                   onChange={e => updateName(e.target.value)}
+                  onBlur={e => updateName(e.target.value)}
                 />
             </label>
 
@@ -39,6 +40,8 @@ export function Contact() {
                 value={email}
                 placeholder="Your Email"
                 onChange={e => updateEmail(e.target.value)}
+                onBlur={e => updateName(e.target.value)}
+
               />
             </label>
 
@@ -51,6 +54,8 @@ export function Contact() {
                 value={message}
                 placeholder="Your Message"
                 onChange={e => updateMessage(e.target.value)}
+                onBlur={e => updateName(e.target.value)}
+
               />
             </label>
             <button className='button button-Contact' onClick={handleSubmit}>

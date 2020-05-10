@@ -1,53 +1,49 @@
 @import '../../styles/vars';
 
 .Contact {
-  min-width: 330px;
+  min-width: 350px;
   overflow: hidden;
   color: $main-font;
 background-color: $light-purple;
+display: flex;
+justify-content: center;
+align-items: center;
+
 
 }
 
 
-
   .form{
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     width: 360px;
     margin: 15px ;
-    padding: 20px ;
+    //padding: 20px ;
     border-radius: 5px;
 
     &__group {
-      display: inline-block;
-      margin-top: 5px;
-  }
+      line-height: 1.5;
+    }
+  
     &__group:not(:last-child) {
+      
         margin-bottom: 15px;
     }
 
-    &-title {
-      width: 85%;
-      margin: 20px 0;
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 35px;
-      line-height: 1.1;
-    }
     &__input {
         
         font-family: inherit;
         padding: 20px;
-        border-radius: 2px;
+        border-radius: 5px;
         background-color: rgba(white, .5);
         border: none;
-        border-bottom: 3px solid $dark-purple transparent;
-        width: 90%;
-        display: inline-block;
+        width: 100%;
     }
 
     &__input:focus {
         outline: none;
-        box-shadow: 0 1rem 2rem rgba(black, .1);
+       box-shadow: 0 1rem 2rem rgba(black, .1);
         border-bottom: 3px solid $dark-purple;
     }
 
@@ -56,5 +52,7 @@ background-color: $light-purple;
 
 
 .button-Contact {
-  margin-bottom: 20px;
+  margin: 5px;
+  align-self: center;
+  max-width: 50%;
 }
