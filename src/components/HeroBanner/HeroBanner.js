@@ -5,6 +5,7 @@ import './HeroBanner.scss';
 
 export function HeroBanner() {
     return (
+        
         <section className="'HeroBanner">
         <div className="HeroBanner--textbox">
         <h1 className="HeroBanner--primary">

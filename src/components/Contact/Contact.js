@@ -15,6 +15,9 @@ export function Contact() {
     return (
         <section className='Contact' id='contact'>
           <div className='container Contact-wrapper'>
+          <h3>Lets Chat Send me a Message!</h3>
+          <div className="Contact-container">
+
             <form action="https://formspree.io/martinez1751@gmail.com" className="form" method="POST">
 
               <label htmlFor="name" className="form__group">
@@ -62,6 +65,7 @@ export function Contact() {
               Submit
             </button>
           </form> 
+          </div>
           </div>       
         </section>
     )

@@ -1,7 +1,8 @@
 @import '../../styles/vars';
 
 .About {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    //padding-bottom: 20px;
     padding-top: 35px;
     background-image: linear-gradient(white, $background-color);
     margin-top: -5px;
@@ -23,15 +24,17 @@
     &-certs {
         max-width: 50vw;
         width: 200px;
-        height: 150px;
+        height: 100%;
         margin: 0 auto;
         max-height: inherit;
         display: flex;
         align-self: center;
+        flex-direction: column;
         justify-content: center;
       
 
         & img {
+            padding: 10px 0;
             max-width: inherit;
             max-height: inherit;
            // margin: 0 auto;
@@ -83,7 +86,7 @@
     }
 
     &-education {
-        padding-top: 20px;
+     //   padding-top: 20px;
 
         h4{
             margin-bottom: 10px;

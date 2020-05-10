@@ -27,13 +27,13 @@ export function About() {
                 <li>Hibernate</li>
                 <li>Pega</li>
                 <li>React</li>
-                <li>PostgreSQL</li>
-                <li>GraphQL</li>
                 <li>Node</li>
                 <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>GraphQL</li>
+                <li>HTML</li>
                 <li>CSS </li>
                 <li>Sass</li>
-                <li>HTML</li>
                 </ul>
                 </div>
             </div>
@@ -78,18 +78,23 @@ export function About() {
                     alt="PCSSA"
                     className="pega-img mb-1"
                 />
+                </div>
+                <div className='About-certs'>
                 <img
                     src="https://github.com/amart31/andymartinez/blob/master/src/img/PegaCertPro.png?raw=true"
                     alt="Certified professional Pega"
                     className="pega-img m-2"
                 />
+                </div>
+                <div className='About-certs'>
                 <img
                     src="https://github.com/amart31/andymartinez/blob/master/src/img/PegaBAlogo.png?raw=true"
                     alt="CBA logo"
                     className="pega-img mt-1"
                 />
-                
                 </div>
+                
+               
             </div>
         </section>
     );
