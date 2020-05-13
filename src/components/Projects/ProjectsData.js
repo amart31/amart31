@@ -6,7 +6,7 @@ export const ProjectsData = [
     {
         title: 'React-Closet Full Stack Project',
     text:
-      'We specialize in helping recovering people recover, We recruit professionals to help you with whatever needs you may have, from going cooking for you to helping you bathe we are here to help.',
+      'A full stack React ecommerce application created as a marketplace to let users sell their own merchandise, the project uses a wide array of technologies from React, HTML, CSS, and JWT to a headless wordpress backend for content management.',
     imgSrc: ReactCloset,
     imgSrcM: ReactCloset,
     imgAlt: 'react closet project',
@@ -16,7 +16,7 @@ export const ProjectsData = [
     {
         title: 'React-Resort Full Stack Project',
     text:
-      'We specialize in helping recovering people recover, We recruit professionals to help you with whatever needs you may have, from going cooking for you to helping you bathe we are here to help.',
+      'React project created with the goal of being the internet home of a hotel chain. This project has a ReactJS frontend and uses Contentful for content management.',
     imgSrc: ReactResort,
     imgSrcM: ReactResort,
     imgAlt: 'React Resort Project',
@@ -26,7 +26,7 @@ export const ProjectsData = [
     {
         title: 'TRMS Java Full Stack Project',
     text:
-      'We specialize in helping recovering people recover, We recruit professionals to help you with whatever needs you may have, from going cooking for you to helping you bathe we are here to help.',
+      'Tuition Reimbursement System built with Java, PostgresSQL, AWS, and other technologies. This project was intended to provide a system where Human Resources manager will be able to offload the tuition reimbursement prcess entirely to the app.',
     imgSrc: Trms,
     imgSrcM: Trms,
     imgAlt: 'TRMS Project',
