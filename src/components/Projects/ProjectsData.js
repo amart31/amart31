@@ -4,9 +4,9 @@ import Trms from '../../img/trmsPic.png';
 
 export const ProjectsData = [
     {
-        title: 'React-Closet Full Stack Project',
+        title: 'ARMA Seda Pega Application',
     text:
-      'A full stack React ecommerce application created as a marketplace to let users sell their own merchandise, the project uses a wide array of technologies from React, HTML, CSS, and JWT to a headless wordpress backend for content management.',
+      'A mission tracking system that allows for the continuous and detailed tracking of asteroids and near earth objects. The system relies on Pega system of record to store astronomers observations.',
     imgSrc: ReactCloset,
     imgSrcM: ReactCloset,
     imgAlt: 'react closet project',
@@ -14,7 +14,7 @@ export const ProjectsData = [
     btnTxt: 'See more'
     },
     {
-        title: 'React-Resort Full Stack Project',
+        title: 'Tourist Car Rental Pega App',
     text:
       'React project created with the goal of being the internet home of a hotel chain. This project has a ReactJS frontend and uses Contentful for content management.',
     imgSrc: ReactResort,
@@ -30,6 +30,16 @@ export const ProjectsData = [
     imgSrc: Trms,
     imgSrcM: Trms,
     imgAlt: 'TRMS Project',
+    link: '#',
+    btnTxt: 'See more'
+    },
+    {
+        title: 'React-Closet Full Stack Project',
+    text:
+      'React project created with the goal of being the internet home of a hotel chain. This project has a ReactJS frontend and uses Contentful for content management.',
+    imgSrc: ReactCloset,
+    imgSrcM: ReactCloset,
+    imgAlt: 'React Resort Project',
     link: '#',
     btnTxt: 'See more'
     }
