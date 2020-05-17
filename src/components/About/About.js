@@ -22,18 +22,18 @@ export function About() {
                 <div className='About-list'>
                 <h4> Knowledge Areas</h4>
                 <ul>
-                <li>Java</li>
-                <li>Spring</li>
-                <li>Hibernate</li>
+                
                 <li>Pega</li>
+                <li>Case Management</li>
+                <li>Java</li>
+                <li>Integration</li>
+                <li>Spring</li>
+                <li>Reporting</li>
                 <li>React</li>
-                <li>Node</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>GraphQL</li>
-                <li>HTML</li>
+                <li>Authentication</li>
                 <li>CSS </li>
-                <li>Sass</li>
+                <li>PostgreSQL</li>
+                <li>HTML</li>
                 </ul>
                 </div>
             </div>
