@@ -1,5 +1,6 @@
 import ReactCloset from '../../img/react-closet.jpg';
-import ReactResort from '../../img/react-resort.jpg';
+import ArmaImg from '../../img/armaNeoCase.png';
+import TCRLCImg from '../../img/TCRCaseLifeCycle.png';
 import Trms from '../../img/trmsPic.png';
 
 export const ProjectsData = [
@@ -7,8 +8,8 @@ export const ProjectsData = [
         title: 'ARMA Seda Pega Application',
     text:
       'Pega application for tracking Near Earth Objects (NEOs). Configured an Enterprise Class Structure to implement rule reusability and enforce best practices. Established SLAs in order to assign urgency levels to assignments and ensure timely completion of assignments. Modified UI rules harness, skin, sections to ensure the user experience is maximized and worker efficiency increased.',
-    imgSrc: ReactCloset,
-    imgSrcM: ReactCloset,
+    imgSrc: ArmaImg,
+    imgSrcM: ArmaImg,
     imgAlt: 'ARMA Seda Pega app project',
     link: '#',
     btnTxt: 'See more'
@@ -17,8 +18,8 @@ export const ProjectsData = [
         title: 'Tourist Car Rental Pega App',
     text:
       'Designed a Case life cycle to manage the car rental case type for Tourist Car Rental. Configured and added Data Types to the Pega System of Record in order to manage data more efficiently. Created Report Definitions and reports to help management and stakeholders visualize business and process metrics. Routed assignments to the most appropriate parties to ensure accounts and reservations are approved or denied in a timely fashion.',
-    imgSrc: ReactResort,
-    imgSrcM: ReactResort,
+    imgSrc: TCRLCImg,
+    imgSrcM: TCRLCImg,
     imgAlt: 'Tourist Car Rental Pega Project',
     link: '#',
     btnTxt: 'See more'
