@@ -48,8 +48,13 @@
 
     &-text { 
        // padding: 10px;
-        margin-bottom: 60px;
+       
       //  max-width: 80%;
+
+      @media (min-width: $lg-min) {
+        margin-bottom: 70px;
+
+    }
 
       
 
@@ -82,6 +87,11 @@
   //background-color: $light-purple;
         text-align: center;
         margin-top: 43px;
+
+        @media (max-width: $md-max) {
+            margin-top: 20px;
+    
+        }
         
         & li {
             list-style: none;
@@ -104,6 +114,7 @@
 
     &-education {
         padding-top: 20px;
+        padding-right: 20px;
 
         h4{
             //padding-left: 10px;
