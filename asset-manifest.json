@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.25f7ca10.chunk.css",
+    "main.css": "/static/css/main.f364a6bb.chunk.css",
     "main.js": "/static/js/main.0515ec9b.chunk.js",
     "main.js.map": "/static/js/main.0515ec9b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d508448.js",
@@ -8,9 +8,9 @@
     "static/js/2.bed81555.chunk.js": "/static/js/2.bed81555.chunk.js",
     "static/js/2.bed81555.chunk.js.map": "/static/js/2.bed81555.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.edcdcd1bacb7de0855008b6e21c4e193.js": "/precache-manifest.edcdcd1bacb7de0855008b6e21c4e193.js",
+    "precache-manifest.cd2223c627296b56eb857d75ceb6e1ca.js": "/precache-manifest.cd2223c627296b56eb857d75ceb6e1ca.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.25f7ca10.chunk.css.map": "/static/css/main.25f7ca10.chunk.css.map",
+    "static/css/main.f364a6bb.chunk.css.map": "/static/css/main.f364a6bb.chunk.css.map",
     "static/js/2.bed81555.chunk.js.LICENSE.txt": "/static/js/2.bed81555.chunk.js.LICENSE.txt",
     "static/media/TCRCaseLifeCycle.png": "/static/media/TCRCaseLifeCycle.9054008d.png",
     "static/media/armaNeoCase.png": "/static/media/armaNeoCase.2d449a4c.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9d508448.js",
     "static/js/2.bed81555.chunk.js",
-    "static/css/main.25f7ca10.chunk.css",
+    "static/css/main.f364a6bb.chunk.css",
     "static/js/main.0515ec9b.chunk.js"
   ]
 }
