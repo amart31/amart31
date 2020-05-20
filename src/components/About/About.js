@@ -24,16 +24,14 @@ export function About() {
                 <ul>
                 
                 <li>Pega</li>
-                <li>Case Management</li>
-                <li>Java</li>
-                <li>Integration</li>
-                <li>Spring</li>
-                <li>Reporting</li>
                 <li>React</li>
-                <li>Authentication</li>
                 <li>CSS </li>
-                <li>PostgreSQL</li>
                 <li>HTML</li>
+                <li>Java</li>
+                <li>Spring</li>
+                <li>Integration</li>
+                <li>PostgreSQL</li>
+                
                 </ul>
                 </div>
             </div>
