@@ -1,14 +1,14 @@
-import React from 'react';
-import { Navbar } from '../components/Navbar/Navbar';
-import { Footer } from '../components/Footer/Footer';
+import React from "react";
+import { Navbar } from "../components/Navbar/Navbar";
+import { Footer } from "../components/Footer/Footer";
 
-import { Projects } from '../components/Projects/Projects';
-import  { ProjectsData } from '../components/Projects/ProjectsData'
+import { Projects } from "../components/Projects/Projects";
+import { ProjectsData } from "../components/Projects/ProjectsData";
 
-import { About } from '../components/About/About';
-import { Contact } from '../components/Contact/Contact';
+import { About } from "../components/About/About";
+import { Contact } from "../components/Contact/Contact";
 
-import HeroBanner  from '../components/HeroBanner/HeroBanner';
+import HeroBanner from "../components/HeroBanner/HeroBanner";
 
 export function Home() {
   const projects = ProjectsData.map((project, i) => {
@@ -23,7 +23,7 @@ export function Home() {
         btnTxt={project.btnTxt}
         side={i}
         key={i}
-        />
+      />
     );
   });
   return (
