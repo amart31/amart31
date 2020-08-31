@@ -3,8 +3,8 @@
 .Contact {
   min-width: 350px;
   overflow: hidden;
-  color: $main-font;
-background-color: $light-purple;
+  color: #f5f5f5;
+background-color: darkslateblue;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -24,6 +24,8 @@ align-items: center;
 
     &__group {
       line-height: 1.5;
+      text-transform: uppercase;
+  text-decoration: none;
     }
   
     &__group:not(:last-child) {
@@ -43,7 +45,7 @@ align-items: center;
 
     &__input:focus {
         outline: none;
-       box-shadow: 0 1rem 2rem rgba(black, .1);
+      // box-shadow: 0 1rem 2rem rgba(black, .1);
         border-bottom: 3px solid $dark-purple;
     }
 
@@ -67,4 +69,13 @@ align-items: center;
   margin: 5px;
   align-self: center;
   max-width: 50%;
+  background-color: #f5f5f5 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  color: $light-purple !important;
+
+  &:hover {
+    background-color: $dark-purple !important;
+}
 }

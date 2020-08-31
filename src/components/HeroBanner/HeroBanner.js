@@ -1,32 +1,12 @@
-import React, { useState, useEffect } from "react";
-import headerImg from "../../img/heroBg.jpg";
-import headerImgMobile from "../../img/heroBg-mobil.jpg";
+import React from "react";
+
 import "./HeroBanner.scss";
 
 const HeroBanner = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  const imageUrl = windowWidth >= 767 ? headerImg : headerImgMobile;
-
-  useEffect(() => {
-    const handleWindowResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleWindowResize);
-
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  }, []);
+  
   return (
     <section
       className="'HeroBanner"
-      style={{
-        backgroundImage: `url(${imageUrl})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
     >
       <div className="HeroBanner--textbox">
         <h1 className="HeroBanner--primary">
@@ -42,7 +22,7 @@ const HeroBanner = () => {
         <a href="#projects" 
           className="btn btn--white"
           title="link to projects section">
-          see my work
+          see more
         </a>
       </div>
     </section>

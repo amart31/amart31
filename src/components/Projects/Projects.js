@@ -33,10 +33,9 @@ export function Projects(props) {
           props.side % 2 === 0 ? "left" : "right"
         }-side Project-img`}
       >
-        <picture>
-          <source media="(min-width: 768px)" srcSet={props.imgSrc} />
-          <img src={props.imgSrcM} alt={props.imgAlt} />
-        </picture>
+       
+          <img src={props.imgSrc} alt={props.imgAlt} />
+       
       </div>
     </section>
   );
