@@ -31,24 +31,24 @@ export function Navbar() {
 
   return (
     <section className="Navbar" style={{ ...headerStyle }}>
-      <Link to="/" className="Navbar-link">
+      <Link to="/" className="Navbar-link" title="Go to Home section">
         Andy Martinez
       </Link>
 
       <div>
         <a href="#projects" 
           className="Navbar-link"
-          title="link to projects section">
+          title="Go to Projects section">
           Projects
         </a>
         <a href="#about" 
           className="Navbar-link"
-          title="link to about me section">
+          title="Go to About Me section">
           About
         </a>
         <a href="#contact" 
           className="Navbar-link"
-          title="link to contact section">
+          title="Go to Contact section">
           Contact
         </a>
       </div>

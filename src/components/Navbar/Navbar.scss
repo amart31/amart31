@@ -19,12 +19,8 @@
         font-size: 17px;
 
         &:hover {
-            background-color: $dark-purple;
-            color: white;
-        }
-
-        &:first-child {
-            font-weight: 700;
+           // background-color: $dark-purple;
+            color: darkslateblue;
         }
 
         @media screen and (max-width: $sm-max) {
